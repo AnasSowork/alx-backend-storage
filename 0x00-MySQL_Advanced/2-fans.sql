@@ -1,6 +1,6 @@
--- SQL script to rank country origins of bands by number of fans
+-- SQL Script to rank country origins of bands by number of fans
 
--- Select origin (country) and sum of nb_fans, ordered by sum of nb_fans descending
+-- Select Origin (country) and sum of nb_fans, ordered by sum of nb_fans descending
 SELECT origin, SUM(nb_fans) AS nb_fans
 FROM bands
 GROUP BY origin
