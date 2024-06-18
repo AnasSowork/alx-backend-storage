@@ -1,0 +1,3 @@
+// my comment
+db = db.getSiblingDB('my_db');
+print('switched to db ' + db.getName());
