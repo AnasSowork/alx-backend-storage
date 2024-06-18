@@ -1,3 +1,2 @@
-// craeting databases
-db = db.getSiblingDB('my_db');
-print('switched to db ' + db.getName());
+// Uses or creates a MongoDB database.
+use my_db;
